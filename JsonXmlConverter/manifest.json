@@ -1,0 +1,37 @@
+{
+	"action": {
+		"default_icon": {
+			"128": "images/icon128.png",
+			"16": "images/icon16.png",
+			"48": "images/icon48.png"
+		},
+		"default_popup": "popup.html"
+	},
+	"description": "Convert JSON to XML and XML to JSON",
+	"icons": {
+		"128": "images/icon128.png",
+		"16": "images/icon16.png",
+		"48": "images/icon48.png"
+	},
+	"manifest_version": 3,
+	"name": "JSON to XML Converter",
+	"permissions": [
+		"activeTab"
+	],
+	"version": "1.0",
+	"web_accessible_resources": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"resources": [
+				"popup.js",
+				"popup.css",
+				"popup.html",
+				"images/icon16.png",
+				"images/icon48.png",
+				"images/icon128.png"
+			]
+		}
+	]
+}
